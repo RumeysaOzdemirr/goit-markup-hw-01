@@ -105,6 +105,7 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 2%;
+    text-decoration: underline;
 }
 
 .hero-image{
@@ -142,4 +143,139 @@ body {
 .section-button:hover{
     background-color: #404BBF;
     color: #FFFFFF;
+}
+
+.method-title{
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+.method-text{
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+}
+.team-workers{
+    background-color: #F4F4FD;
+}
+.team-workers li{
+    list-style-type: none;
+}
+.team-card{
+    box-shadow: 0px 2px 1px #2E2F42 8%;
+    box-shadow: 0px 1px 1px #2E2F42 16%;
+    box-shadow: 0px 1px 6px #2E2F42 8%;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    height: 380px;
+    
+}
+.team-image{
+    width: 264px;
+    height: 260px;
+    float:left;
+    
+}
+.team-workers-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 2.5em;
+    color: #2E2F42;
+}
+.worker-name{
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #2E2F42;
+}
+.team-card p {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #434455; 
+}
+.team-project{
+    background-color: #FFFFFF;
+}
+.team-project .title{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 2.5em;
+    letter-spacing: 2%;
+    text-align: center;
+}
+.project-list{
+    list-style-type: none;
+}
+.project-image{
+    width: 360px;
+    height: 300px;
+}
+.project-title{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2%
+    color #2E2F42;
+}
+.project-text{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    color: #434455;
+}
+.page-footer{
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+}
+.footer-logo{
+    width: 115px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.footer-logo .web {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3125em;
+    letter-spacing: 3%;
+    color: #4D5AE5;
+    width: 44px;
+    height: 21px;
+}
+
+.footer-logo .studio {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3125em;
+    letter-spacing: 3%;
+    color: #F4F4FD;
+    width: 71px;
+    height: 21px;
+}
+.footer-text{
+    color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
 }
